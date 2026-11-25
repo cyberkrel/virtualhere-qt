@@ -10,6 +10,18 @@ This independent project is not affiliated with, endorsed by, or supported by Vi
 > **Release Status — Awaiting Permission**
 >
 > The first public release containing the original VirtualHere USB Console Client and application icon will only be published after explicit permission has been granted by the original developer. Until then, this repository serves as a project presentation and documentation for review. The installation package remains unpublished.
+>
+> **Upstream binary verification (25 November 2026)**
+>
+> VirtualHere USB Console Client 6.0.3 (released 1 October 2026), Linux x86_64. The binary in the prepared, unpublished package matches the SHA-1 checksum published by the original developer.
+>
+> File: `vhclientx86_64`
+>
+> SHA-1: `a5e9a489c811357a6eeda3213c172b9e80beab20`
+>
+> SHA-256: `d66d41a12e1137ce3adec1f851987a2bfb3cc62ca96a280646abcd6d9c4ec554`
+>
+> [Official downloads](https://www.virtualhere.com/usb_client_software) · [Official SHA-1 checksums](https://www.virtualhere.com/sites/default/files/usbclient/SHA1SUM)
 
 ![“VirtualHere Qt main window and system tray preview”](preview.png)
 
