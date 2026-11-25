@@ -1,15 +1,38 @@
 VirtualHere Qt 0.1.1
 
-The original Qt frontend is licensed under the Zero-Clause BSD license (0BSD).
-See LICENSE for the full license text.
+Frontend License
+----------------
+The VirtualHere Qt frontend is licensed under the Zero-Clause BSD license
+(0BSD). See LICENSE for the full license text.
 
-VirtualHere Qt is an independent, unofficial project. It is not affiliated
-with, endorsed by, or supported by VirtualHere.
+Third-Party Components
+----------------------
+The original VirtualHere USB Console Client and application graphics are
+not covered by the frontend's 0BSD license and remain subject to their
+respective licensing terms.
 
-The VirtualHere USB Console Client and original application icon are third-party
-components and remain subject to their respective licensing terms. Neither is
-included in this public source archive. Redistribution permission is pending.
+Redistribution Permission
+-------------------------
+On 25 November 2026, permission was granted by Michael, the original
+VirtualHere developer, via email, for:
 
-Official website: https://www.virtualhere.com/
-Client downloads: https://www.virtualhere.com/usb_client_software
+- Redistribution of the original, unmodified Linux x86_64 client as part
+  of the Arch Linux installation package.
+- Use of the original application icon and its adapted monochrome system
+  tray version.
+- Use of the name VirtualHere Qt.
+
+Independent Project
+-------------------
+VirtualHere Qt is an independent, unofficial project providing a Qt 6
+frontend, Arch Linux packaging and systemd integration.
+
+The permission granted does not imply official affiliation, endorsement
+or support by VirtualHere.
+
+Official Resources
+------------------
+Website: https://www.virtualhere.com/
+USB Server: https://www.virtualhere.com/usb_server_software
+USB Client: https://www.virtualhere.com/usb_client_software
 Client API: https://www.virtualhere.com/client_api
