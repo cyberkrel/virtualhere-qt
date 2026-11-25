@@ -1,0 +1,32 @@
+pkgbase = virtualhere
+	pkgdesc = Qt 6 tray interface for the VirtualHere USB client
+	pkgver = 0.1.1
+	pkgrel = 1
+	url = https://github.com/cyberkrel/virtualhere-qt
+	arch = x86_64
+	license = 0BSD
+	license = LicenseRef-VirtualHere
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = qt6-base
+	makedepends = qt6-tools
+	depends = gcc-libs
+	depends = glibc
+	depends = qt6-wayland
+	depends = systemd
+	depends = qt6-base>=6.5
+	options = !strip
+	options = !debug
+
+	source = CMakeLists.txt
+	source = LICENSE
+	source = NOTICE
+	source = SOURCE-REVIEW.md
+	source = SHA256SUMS
+	sha256sums = 688c9174f004526c56e922335eb96ee69f7ef0682a7e3d8554fa6ddcd80399b4
+	sha256sums = 11e723e90c166ec62cd544b169ef857f66dc11c61325f678952e66acbdc84f90
+	sha256sums = 10a86c285e5d42847f41fd7e0cbac1bd57db345500e6f162e60ad2b2bee07e6a
+	sha256sums = e9f95809c1bfcf38869f3cd4493dc60b7d8ec0c922c4b7d876afc624a3184c06
+	sha256sums = 0f9cc5ed5f843e72ba00ec4ee947a6afba64df527f244b28de5eee33265e6d6f
+
+pkgname = virtualhere
