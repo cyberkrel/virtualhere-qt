@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=VirtualHere
+GenericName=Remote USB devices
+GenericName[de]=USB-Geräte über das Netzwerk
+GenericName[ru]=USB-устройства по сети
+Comment=Connect to USB devices shared by a VirtualHere server
+Comment[de]=Freigegebene USB-Geräte eines VirtualHere-Servers verbinden
+Comment[ru]=Подключение к USB-устройствам на сервере VirtualHere
+Exec=virtualhere
+Icon=virtualhere
+Terminal=false
+Categories=Network;Utility;

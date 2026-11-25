@@ -1,0 +1,13 @@
+[Unit]
+Description=VirtualHere USB Client
+After=network.target
+
+[Service]
+Type=forking
+StateDirectory=virtualhere
+StateDirectoryMode=0700
+ExecStart=/usr/lib/virtualhere/vhclientx86_64 -n -c /var/lib/virtualhere/vhclient.conf
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

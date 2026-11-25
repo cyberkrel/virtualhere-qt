@@ -1,0 +1,15 @@
+VirtualHere Qt 0.1.1
+
+The original Qt frontend is licensed under the Zero-Clause BSD license (0BSD).
+See LICENSE for the full license text.
+
+VirtualHere Qt is an independent, unofficial project. It is not affiliated
+with, endorsed by, or supported by VirtualHere.
+
+The VirtualHere USB Console Client and original application icon are third-party
+components and remain subject to their respective licensing terms. Neither is
+included in this public source archive. Redistribution permission is pending.
+
+Official website: https://www.virtualhere.com/
+Client downloads: https://www.virtualhere.com/usb_client_software
+Client API: https://www.virtualhere.com/client_api
