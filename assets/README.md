@@ -1,25 +1,64 @@
-# Third-party components
+# Original VirtualHere Components
 
-The original VirtualHere USB Console Client and application icon are not included in this repository. Their redistribution is subject to permission from the original developer.
+This directory is reserved for the original VirtualHere components required to build VirtualHere Qt 0.1.1.
 
 ## VirtualHere USB Console Client
 
 - Version: 6.0.3
 - Release date: 1 October 2026
-- Platform: Linux x86_64
-- Expected filename: `vhclientx86_64`
-- SHA-1: `a5e9a489c811357a6eeda3213c172b9e80beab20`
-- SHA-256: `d66d41a12e1137ce3adec1f851987a2bfb3cc62ca96a280646abcd6d9c4ec554`
+- Architecture: Linux x86_64
+- Filename: `vhclientx86_64`
+- Modification: None
 
-The SHA-1 checksum of the client in the prepared, unpublished package matched the manufacturer's published checksum on 25 November 2026. The SHA-256 checksum identifies that packaged file. Future upstream versions may have different checksums.
+**SHA-1**
 
-[Official client downloads](https://www.virtualhere.com/usb_client_software) · [Official SHA-1 checksums](https://www.virtualhere.com/sites/default/files/usbclient/SHA1SUM)
+`a5e9a489c811357a6eeda3213c172b9e80beab20`
 
-## Application icon
+**SHA-256**
 
-- Expected filename: `virtualhere.png`
-- SHA-256 of the icon in the prepared package: `9e9e7b3b159c92fa9146c2a1879786e36d890eac306a8c289fbc58fb71ede080`
+`d66d41a12e1137ce3adec1f851987a2bfb3cc62ca96a280646abcd6d9c4ec554`
 
-[Original icon](https://www.virtualhere.com/sites/default/files/spinning-icon-skyblue128-1_2.png)
+Official download:
 
-These components are not covered by the frontend's 0BSD license. See [NOTICE](../NOTICE).
+https://www.virtualhere.com/sites/default/files/usbclient/vhclientx86_64
+
+Official checksums:
+
+https://www.virtualhere.com/sites/default/files/usbclient/SHA1SUM
+
+The client's SHA-1 checksum was verified against the manufacturer's published checksum on 25 November 2026.
+
+## Original Application Icon
+
+The original VirtualHere application icon is used with permission from the original developer. A monochrome adaptation is used for KDE Plasma system tray integration.
+
+## Preparing the Build
+
+Place both original files in this directory:
+
+```
+assets/
+├── README.md
+├── vhclientx86_64
+└── virtualhere.png
+```
+
+The original icon must be obtained separately if it is not already available locally.
+
+From the project root, verify the source files:
+
+```bash
+makepkg --verifysource
+```
+
+If the upstream files have changed, obtain the matching versions or deliberately update the package and its checksums. Do not bypass checksum verification.
+
+## Licensing
+
+The original components are not covered by the frontend's 0BSD license.
+
+Redistribution permission for the Arch Linux installation package and permission to use the application graphics were granted on 25 November 2026.
+
+See [NOTICE](../NOTICE) for details.
+
+Official website: https://www.virtualhere.com/
