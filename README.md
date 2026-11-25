@@ -7,6 +7,12 @@
 This independent project is not affiliated with, endorsed by, or supported by VirtualHere.
 
 > [!NOTE]
+> **Discover VirtualHere — USB over IP**
+>
+> VirtualHere lets you use USB devices over a local network, the Internet or the cloud as though they were connected directly to your computer. Its USB Server shares physical devices, while the USB Client makes them available to existing applications and drivers. The original product supports a wide range of server platforms and clients for Windows, macOS and Linux.
+>
+> **[Official VirtualHere website](https://www.virtualhere.com/)** · [USB Server software](https://www.virtualhere.com/usb_server_software) · [USB Client software](https://www.virtualhere.com/usb_client_software)
+>
 > **Release v0.1.1 — in preparation**
 >
 > Permission to redistribute the unmodified Linux x86_64 client as part of the Arch Linux package, use the original application icon and its monochrome tray adaptation, and use the name VirtualHere Qt was granted by the original developer on 25 November 2026. The release will be published after final build and installation testing.
