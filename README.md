@@ -6,6 +6,11 @@
 
 This independent project is not affiliated with, endorsed by, or supported by VirtualHere.
 
+> [!IMPORTANT]
+> **Release Status — Awaiting Permission**
+>
+> The first public release containing the original VirtualHere USB Console Client and application icon will only be published after explicit permission has been granted by the original developer. Until then, this repository serves as a project presentation and documentation for review. The installation package remains unpublished.
+
 ![“VirtualHere Qt main window and system tray preview”](preview.png)
 
 ## Features
