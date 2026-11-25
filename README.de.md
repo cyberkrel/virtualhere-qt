@@ -6,6 +6,8 @@
 
 Unabhängiges Projekt, nicht mit VirtualHere verbunden oder von VirtualHere unterstützt.
 
+![“VirtualHere Qt Hauptfenster und Systemleiste”](preview.png)
+
 ## Funktionen
 
 - USB-Server und Geräte anzeigen, verbinden und trennen.
