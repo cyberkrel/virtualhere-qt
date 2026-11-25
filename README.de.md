@@ -6,6 +6,11 @@
 
 Unabhängiges Projekt, nicht mit VirtualHere verbunden oder von VirtualHere unterstützt.
 
+> [!IMPORTANT]
+> **Veröffentlichungsstatus — Genehmigung ausstehend**
+>
+> Die erste öffentliche Version mit dem originalen VirtualHere USB Console Client und Anwendungssymbol wird erst nach ausdrücklicher Genehmigung durch den Originalentwickler veröffentlicht. Bis dahin dient dieses Repository der Projektvorstellung und Dokumentation zur Prüfung. Das Installationspaket bleibt unveröffentlicht.
+
 ![“VirtualHere Qt Hauptfenster und Systemleiste”](preview.png)
 
 ## Funktionen
