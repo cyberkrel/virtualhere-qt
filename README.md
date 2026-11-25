@@ -6,6 +6,8 @@
 
 This independent project is not affiliated with, endorsed by, or supported by VirtualHere.
 
+![“VirtualHere Qt main window and system tray preview”](preview.png)
+
 ## Features
 
 - View USB servers and devices, connect and disconnect devices.
