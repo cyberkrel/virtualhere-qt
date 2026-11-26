@@ -13,9 +13,9 @@ Dieses unabhängige Projekt ist weder mit VirtualHere verbunden noch von Virtual
 >
 > **[Offizielle VirtualHere-Website](https://www.virtualhere.com/)** · [USB-Server-Software](https://www.virtualhere.com/usb_server_software) · [USB-Client-Software](https://www.virtualhere.com/usb_client_software)
 >
-> **Release v0.1.1 — in Vorbereitung**
+> **Release v0.1.1**
 >
-> Der Originalentwickler erteilte am 25. November 2026 die Genehmigung, den unveränderten Linux-x86_64-Client als Teil des Arch-Linux-Pakets weiterzugeben, das Originalsymbol und dessen monochrome Tray-Variante zu verwenden sowie den Namen VirtualHere Qt zu nutzen. Die Veröffentlichung erfolgt nach abschließenden Build- und Installationstests.
+> Der Originalentwickler erteilte am 25. November 2026 die Genehmigung, den unveränderten Linux-x86_64-Client als Teil des Arch-Linux-Pakets weiterzugeben, das Originalsymbol und dessen monochrome Tray-Variante zu verwenden sowie den Namen VirtualHere Qt zu nutzen.
 
 ![VirtualHere Qt – Hauptfenster und Systemleiste](preview.png)
 
@@ -33,7 +33,7 @@ Arch Linux x86_64, KDE Plasma, Wayland, Qt 6 (Paket gebaut mit Qt 6.12), qt6-way
 
 ## Installation und Aktualisierung
 
-Das Installationspaket wird nach Abschluss der Tests unter [Releases](https://github.com/cyberkrel/virtualhere-qt/releases) verfügbar sein. Vor einer Aktualisierung **Quit** im Tray-Menü wählen. Nach der Installation **VirtualHere** erneut über das Plasma-Anwendungsmenü starten.
+Das Installationspaket unter [Releases](https://github.com/cyberkrel/virtualhere-qt/releases) herunterladen. Vor einer Aktualisierung **Quit** im Tray-Menü wählen. Nach der Installation **VirtualHere** erneut über das Plasma-Anwendungsmenü starten.
 
 ```bash
 sudo pacman -U ./virtualhere-0.1.1-1-x86_64.pkg.tar.zst
@@ -49,7 +49,7 @@ Den Dienst mit `systemctl status virtualhere.service` prüfen. VirtualHere als n
 
 ## Originaler VirtualHere Client
 
-Das geplante Paket enthält den unveränderten VirtualHere USB Console Client **6.0.3** für Linux x86_64 (1. Oktober 2026).
+Das Paket enthält den unveränderten VirtualHere USB Console Client **6.0.3** für Linux x86_64 (1. Oktober 2026).
 
 - SHA-1: `a5e9a489c811357a6eeda3213c172b9e80beab20`
 - SHA-256: `d66d41a12e1137ce3adec1f851987a2bfb3cc62ca96a280646abcd6d9c4ec554`
@@ -69,7 +69,7 @@ Das Stoppen des Dienstes unterbricht USB-Verbindungen. Der manuelle Austausch ve
 
 ## Aus dem Quellcode bauen
 
-Das Repository klonen oder das Quellarchiv entpacken, sobald es verfügbar ist. Die Originalkomponenten gemäß [assets/README.md](assets/README.md) beziehen und im Verzeichnis mit PKGBUILD als normaler Benutzer ausführen:
+Das Repository klonen oder das Quellarchiv entpacken. Die Originalkomponenten gemäß [assets/README.md](assets/README.md) beziehen und im Verzeichnis mit PKGBUILD als normaler Benutzer ausführen:
 
 ```bash
 sudo pacman -S --needed base-devel
@@ -77,7 +77,7 @@ makepkg --verifysource
 makepkg -si
 ```
 
-## Geplante Paketstruktur
+## Paketstruktur
 
 ```
 /usr/
@@ -101,6 +101,6 @@ Der Dienst speichert Verbindungseinstellungen und Auto-Use in `/var/lib/virtualh
 
 ## Lizenz und Drittanbieterkomponenten
 
-Der Daemon `vhclientx86_64` ist der unveränderte Originalclient von VirtualHere. Dieses Projekt stellt die Qt-Oberfläche, die Arch-Linux-Paketierung und die systemd-Integration bereit. Die 0BSD-Lizenz gilt nur für den eigenen Quellcode der Oberfläche. Originalclient und Symbol unterliegen ihren jeweiligen Lizenzbedingungen. Die Genehmigung zur Weitergabe im Arch-Linux-Paket sowie zur Nutzung der Grafiken und des Projektnamens wurde am 25. November 2026 erteilt. Siehe [NOTICE](NOTICE) (wird vor Veröffentlichung aktualisiert).
+Der Daemon `vhclientx86_64` ist der unveränderte Originalclient von VirtualHere. Dieses Projekt stellt die Qt-Oberfläche, die Arch-Linux-Paketierung und die systemd-Integration bereit. Die 0BSD-Lizenz gilt nur für den eigenen Quellcode der Oberfläche. Originalclient und Symbol unterliegen ihren jeweiligen Lizenzbedingungen. Die Genehmigung zur Weitergabe im Arch-Linux-Paket sowie zur Nutzung der Grafiken und des Projektnamens wurde am 25. November 2026 erteilt. Siehe [NOTICE](NOTICE).
 
 [Offizielle VirtualHere-Website](https://www.virtualhere.com/)
