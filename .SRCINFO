@@ -17,7 +17,6 @@ pkgbase = virtualhere
 	depends = qt6-base>=6.5
 	options = !strip
 	options = !debug
-
 	source = CMakeLists.txt
 	source = LICENSE
 	source = NOTICE
@@ -34,3 +33,8 @@ pkgbase = virtualhere
 	sha256sums = ed18f9b927d5a287c75f89090cc17b517088b369cd2c248067361406f6972c18
 
 pkgname = virtualhere
+	depends = gcc-libs
+	depends = glibc
+	depends = qt6-wayland
+	depends = systemd
+	depends = qt6-base>=6.5
