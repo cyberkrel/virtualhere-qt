@@ -13,9 +13,9 @@ This independent project is not affiliated with, endorsed by, or supported by Vi
 >
 > **[Official VirtualHere website](https://www.virtualhere.com/)** · [USB Server software](https://www.virtualhere.com/usb_server_software) · [USB Client software](https://www.virtualhere.com/usb_client_software)
 >
-> **Release v0.1.1 — in preparation**
+> **Release v0.1.1**
 >
-> Permission to redistribute the unmodified Linux x86_64 client as part of the Arch Linux package, use the original application icon and its monochrome tray adaptation, and use the name VirtualHere Qt was granted by the original developer on 25 November 2026. The release will be published after final build and installation testing.
+> Permission to redistribute the unmodified Linux x86_64 client as part of the Arch Linux package, use the original application icon and its monochrome tray adaptation, and use the name VirtualHere Qt was granted by the original developer on 25 November 2026.
 
 ![“VirtualHere Qt main window and system tray preview”](preview.png)
 
@@ -33,7 +33,7 @@ Arch Linux x86_64, KDE Plasma, Wayland, Qt 6 (package built against Qt 6.12), qt
 
 ## Installation and Update
 
-The installation package will be available under [Releases](https://github.com/cyberkrel/virtualhere-qt/releases) after final testing. Before updating, select **Quit** from the tray menu. After installation, launch **VirtualHere** again from the Plasma application menu.
+Download the installation package from [Releases](https://github.com/cyberkrel/virtualhere-qt/releases). Before updating, select **Quit** from the tray menu. After installation, launch **VirtualHere** again from the Plasma application menu.
 
 ```bash
 sudo pacman -U ./virtualhere-0.1.1-1-x86_64.pkg.tar.zst
@@ -49,7 +49,7 @@ Check the service with `systemctl status virtualhere.service`. Launch VirtualHer
 
 ## Original VirtualHere Client
 
-The planned package contains the unmodified VirtualHere USB Console Client **6.0.3** for Linux x86_64 (1 October 2026).
+The package contains the unmodified VirtualHere USB Console Client **6.0.3** for Linux x86_64 (1 October 2026).
 
 - SHA-1: `a5e9a489c811357a6eeda3213c172b9e80beab20`
 - SHA-256: `d66d41a12e1137ce3adec1f851987a2bfb3cc62ca96a280646abcd6d9c4ec554`
@@ -69,7 +69,7 @@ Stopping the service interrupts USB connections. Manual replacement changes a Pa
 
 ## Building from Source
 
-Clone the repository or extract the source archive once available. Obtain the original components as described in [assets/README.md](assets/README.md), then run the following in the directory containing PKGBUILD as a regular user:
+Clone the repository or extract the source archive. Obtain the original components as described in [assets/README.md](assets/README.md), then run the following in the directory containing PKGBUILD as a regular user:
 
 ```bash
 sudo pacman -S --needed base-devel
@@ -77,7 +77,7 @@ makepkg --verifysource
 makepkg -si
 ```
 
-## Planned Package File Layout
+## Package File Layout
 
 ```
 /usr/
@@ -101,6 +101,6 @@ The service stores connection settings and Auto-Use preferences in `/var/lib/vir
 
 ## License and Third-Party Components
 
-The daemon `vhclientx86_64` is the original, unmodified client provided by VirtualHere. This project provides the Qt frontend, Arch Linux packaging and systemd integration. The 0BSD license applies only to the frontend's own source code. The original client and icon remain subject to their respective licensing terms. Redistribution permission for the Arch Linux package and use of the graphics and project name was granted on 25 November 2026. See [NOTICE](NOTICE) (to be updated before release).
+The daemon `vhclientx86_64` is the original, unmodified client provided by VirtualHere. This project provides the Qt frontend, Arch Linux packaging and systemd integration. The 0BSD license applies only to the frontend's own source code. The original client and icon remain subject to their respective licensing terms. Redistribution permission for the Arch Linux package and use of the graphics and project name was granted on 25 November 2026. See [NOTICE](NOTICE).
 
 [Official VirtualHere website](https://www.virtualhere.com/)
